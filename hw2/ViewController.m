@@ -9,15 +9,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Создание массива фигур
+    // РЎРѕР·РґР°РЅРёРµ РјР°СЃСЃРёРІР° С„РёРіСѓСЂ
     NSArray *figures = [self createFiguresArray];
     
-    // Вывод информации о фигурах на экран
+    // Р’С‹РІРѕРґ РёРЅС„РѕСЂРјР°С†РёРё Рѕ С„РёРіСѓСЂР°С… РЅР° СЌРєСЂР°РЅ
     [self printFiguresInfo:figures];
 }
 
 - (NSArray *)createFiguresArray {
-    // Создание объектов фигур
+    // РЎРѕР·РґР°РЅРёРµ РѕР±СЉРµРєС‚РѕРІ С„РёРіСѓСЂ
     Rectangle *rectangle = [[Rectangle alloc] init];
     rectangle.length = 3.0;
     rectangle.width = 4.0;
@@ -30,7 +30,7 @@
     triangle.sideB = 4.0;
     triangle.sideC = 5.0;
     
-    // Добавление фигур в массив
+    // Р”РѕР±Р°РІР»РµРЅРёРµ С„РёРіСѓСЂ РІ РјР°СЃСЃРёРІ
     NSArray *figures = @[rectangle, circle, triangle];
     
     return figures;

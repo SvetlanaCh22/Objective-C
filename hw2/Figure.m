@@ -5,17 +5,17 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        // Инициализация базовых свойств
+        // РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р±Р°Р·РѕРІС‹С… СЃРІРѕР№СЃС‚РІ
     }
     return self;
 }
 
 - (void)calculateArea {
-    // Расчет площади
+    // Р Р°СЃС‡РµС‚ РїР»РѕС‰Р°РґРё
 }
 
 - (void)calculatePerimeter {
-    // Расчет периметра
+    // Р Р°СЃС‡РµС‚ РїРµСЂРёРјРµС‚СЂР°
 }
 
 - (void)printInfo {
